@@ -1,1 +1,36 @@
+$maincolor : blue;
+$fontcolor : red;
+$fontmain : Times New Roman, serif;
 
+* {
+    outline : none;
+}
+html, body {
+    font-family : Helvetica Neue, sans-serif;
+    font-size : 16px;
+    line-height : 1.4em;
+    margin : 0;
+    padding : 0;
+    background : #fff;
+
+            text-size-adjust : none;
+       -moz-text-size-adjust : none;
+        -ms-text-size-adjust : none;
+    -webkit-text-size-adjust : none;
+}
+
+
+[class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86,61,124,.2);
+}
+
+
+/* Media */
+
+@import "fonts";
+@import "media";
